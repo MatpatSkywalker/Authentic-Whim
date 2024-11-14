@@ -1,0 +1,91 @@
+/**! Generales **/
+*{
+    margin: 0;
+    padding: 5;
+}
+/**! Generales **/
+
+/**? Navbar **/
+.nav img{
+    width: 80px;
+}
+
+.nav{
+    background-color: #bb595f !important;
+}
+/**? Navbar **/
+
+/** Hero **/
+.hero h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.hero img{
+    width: 600px;
+    align-items: center;
+}
+
+.hero{
+    background-color: #A62C2A;
+}
+/** Hero **/
+
+/**! Quienes **/
+.quienes{
+    text-align: center;
+    padding: 30px;
+    background-color: #A62C2A;
+}
+
+.organizacion section img{
+    width: 440px;
+}
+
+.organizacion section h3{
+    text-align: center;
+}
+
+.organizacion{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    background-color: #A62C2A;
+}
+
+.fotos{
+    text-align: center;
+    padding: 25px;
+    background-color: #A62C2A;
+}
+/**! Quienes **/
+
+/**? Call to action **/
+.call {
+    padding: 25px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: #A62C2A;
+}
+
+.call h4{
+    border: 4px solid #AF3C3F;
+    display: inline-flex;
+}
+/**? Call to action **/
+
+/** Footer **/
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    background-color: #90151C;
+}
+
+.redes{
+    text-align: center;
+}
+
+.mapa{
+    text-align: center;
+}
