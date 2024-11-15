@@ -1,17 +1,16 @@
 /**! Generales **/
-*{
+* {
     margin: 0;
-    padding: 5;
+    padding: 0;
 }
-a{
+
+a {
     color: black;
     text-decoration: none;
 }
-body{
-    background-color: #90151C;
-}
 
-@media (print), (prefers-reduced-motion: reduce) {
+@media (print),
+(prefers-reduced-motion: reduce) {
     .animated {
         -webkit-animation-duration: 1ms !important;
         animation-duration: 1ms !important;
@@ -21,62 +20,106 @@ body{
         animation-iteration-count: 1 !important;
     }
 }
+
 /**! Generales **/
 
 /**? Navbar **/
-.nav img{
-    width: 80px;
+.nav img {
+    width: 120px;
 }
 
-.nav{
-    background-color: #bb595f !important;
+.image {
+    width: 120px;
 }
+
+.nav {
+    background-color: #bb595f !important;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
 /**? Navbar **/
 
 /** Hero **/
-.hero h1{
+.hero h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
+    align-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
 
-.hero img{
-    width: 600px;
-    align-items: center;
-}
-
-.hero{
+.coco {
     background-color: #A62C2A;
 }
+
+.hero img {
+    padding: inherit;
+    margin: auto;
+    width: 450px;
+    display: block;
+}
+
 /** Hero **/
 
 /**! Quienes **/
-.quienes{
+.quienes {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     background-color: #A62C2A;
 }
 
-.organizacion section img{
+.quienes h2{
+    font-size: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.quienes h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
+.quienes h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.organizacion section img {
     width: 440px;
 }
 
-.organizacion section h3{
+.organizacion section h3 {
     text-align: center;
+    color: black;
 }
 
-.organizacion{
+.organizacion {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
     background-color: #A62C2A;
 }
 
-.fotos{
+.fotos {
     text-align: center;
     padding: 25px;
     background-color: #A62C2A;
     display: inline-flexbox;
 }
+
+.organizacion {
+    justify-items: center;
+}
+
+.fotos h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
 /**! Quienes **/
 
 /**? Call to action **/
@@ -88,53 +131,121 @@ body{
     color: black;
 }
 
-.call h4{
-    border: 4px solid #90151C;
-    display: inline-flex;
+.call h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
 }
 
-.call a{
+.call h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.call h4 {
+    border: 4px solid #90151C;
+    display: inline-flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.call a {
     text-decoration: none;
     color: black;
 }
+
 /**? Call to action **/
 
 /** Footer **/
-footer{
+footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
     background-color: #90151C;
 }
 
-.redes{
+.redes {
     text-align: center;
     text-decoration: none;
     color: black;
 }
 
-.redes a{
+.redes a {
     text-decoration: none;
     color: black;
 }
 
-.mapa{
+.mapa {
     text-align: center;
     color: black;
 }
 
 /**! Planes **/
-.explicacion{
+.explicacion {
     text-align: center;
+    padding-bottom: 50px;
 }
 
-.planes{
+.explicacion h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    color: black;
+}
+
+.explicacion h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+.item h5 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.item ul li {
+    text-align: justify;
+}
+
+.item {
+    align-items: center;
+}
+
+.planes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
-    gap: 230px;
 }
 
-.color{
-    background-color: #AF3C3F;
+.planes {
+    justify-items: center;
+}
+
+.color {
+    background-color: #A62C2A;
+}
+
+/**! Planes **/
+
+/**? Politicas **/
+.politicas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 50px;
+    text-align: justify;
+    background-color: #A62C2A;
+}
+
+.politicas {
+    justify-items: center;
+}
+
+.politicas img {
+    width: 280px;
+}
+
+.social img {
+    width: 230px;
+    height: auto;
 }
